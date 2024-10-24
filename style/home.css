@@ -166,7 +166,7 @@
 }
 
 #majalahUNS .image {
-    background-image: url(/media-content/image/majalah-uns.jpg);
+    background-image: url(media-content/image/majalah-uns.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -254,7 +254,7 @@
 .main-bottom {
     height: 85vh;
     width: 100vw;
-    background-image: url(/media-content/image/uns-bottom.jpg);
+    background-image: url(media-content/image/uns-bottom.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     transform: translateY(2vh);
