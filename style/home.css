@@ -1,0 +1,263 @@
+
+.wrapper-cover .slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.wrapper-cover .slideshow-container .fade {
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+.wrapper-cover .slideshow-container img{
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper-cover .wrapper-title {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    padding-top: 20vh;
+    width: 100%;
+    height: 60vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5vw;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper-cover .wrapper-title p{
+    color: deepskyblue;
+    font-size: 1.8vw;
+}
+
+.main-associate {
+    transform: translateY(-1.2vw);
+    font-size: 1vw;
+    background-color: deepskyblue;
+    color: white;
+}
+
+.main-associate ul{
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.main-associate ul li{
+    width: 16.6vw;
+}
+
+.main-associate img{
+    filter: invert(0%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 13vw;
+}
+
+.main-associate img:hover{
+    opacity: 0.5;
+}
+
+.main-section {
+    margin-bottom: 5vw;
+}
+
+.main-section h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    font-weight: 800;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 4vh;
+    padding: 1vh;
+    border-bottom: 0.5vh solid deepskyblue;
+}
+
+.main-section p {
+    color: gray;
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    padding: 1vh;
+
+}
+
+#berita {
+    position: absolute;
+    translate: 0 -7vw;
+}
+
+.news-section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.news-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: space-between;
+}
+
+.news-item {
+    background-color: #fff;
+    overflow: hidden;
+    width: 32%;
+    border-radius: 1vw;
+    box-shadow: 0 0.1vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.news-item img {
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+}
+
+.news-content {
+    padding: 1vw;
+}
+
+.news-content h3 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.news-content p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.read-more {
+    display: inline-block;
+    margin-bottom: 1vw;
+    margin-left: 0.5vw;
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+#majalahUNS {
+    margin-top: 5vh;
+    padding-left: 0vw;
+    display: flex;
+}
+
+#majalahUNS .image {
+    background-image: url(/media-content/image/majalah-uns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 6vw;
+    width: 40vw;
+    border-top-left-radius: 2vw;
+}
+
+#majalahUNS .text {
+    background-color: deepskyblue;
+    padding: 1vh;
+    width: 46vw;
+    border-bottom-right-radius: 2vw;
+    padding-bottom: 5vw;
+}
+
+#majalahUNS h2 {
+    color: white;
+    margin-left: 2vw;
+    padding-top: 10vh;
+    font-size: 2.5vw;
+}
+
+#majalahUNS p {
+    color: white;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    font-size: 1.2vw;
+    text-align: justify;
+}
+
+#majalahUNS .text a {
+    background-color: whitesmoke;
+    color: deepskyblue;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 700;
+    padding: 0.5vw;
+    margin-left: 2.5vw;
+    border-radius: 1vw;
+}
+
+#majalahUNS .text a:hover {
+    background-color: lightblue;
+}
+
+.ranking-container {
+    background-color: deepskyblue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+    margin: 5vh 6vw;
+    padding: 2vw 10vw;
+    border-top-left-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+}
+
+.ranking-card {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 1vw;
+    transition: 0.2s ease-in-out;
+    border-radius: 0.5vw;
+}
+  
+.ranking-card:hover {
+    transform: translateY(-0.5vw);
+}
+  
+.ranking-card img {
+    width: 8vw;
+    height: auto;
+}
+
+.ranking-card p {
+    text-align: center;
+    margin: 1vw 0;
+}
+
+#bot {
+    margin-bottom: 20vh;
+}
+
+.main-bottom {
+    height: 85vh;
+    width: 100vw;
+    background-image: url(/media-content/image/uns-bottom.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(2vh);
+    filter: hue-rotate(-30deg) grayscale(0.5);
+    background-position: 0px -180px;
+}

@@ -1,0 +1,113 @@
+.image-title {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-image: url('../media-content/image/tentang.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+#fakultas {
+    background-image: url('../media-content/image/fakultas.jpg');
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0vh;
+    left: 2vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+#sub {
+    margin: 5vh 5vw;
+    font-size: 1.2vw;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+
+.content {
+    line-height: 1.8;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 4vh;
+}
+
+.grid-item {
+    font-size: larger;
+    padding: 50vw;
+    background-color: dodgerblue;
+    padding: 5vw;
+    color: white;
+}
+
+#gray {
+    text-align: center;
+    color: rgb(30, 30, 30);
+    background-color: whitesmoke;
+}
+
+#gray li , #gray p{
+    text-align: left;
+}
+
+#makna {
+    height: 70vh;
+    text-align: right;
+    background-image: url(../media-content/image/makna-logo.jpg);
+    background-size: cover;
+}
+
+#struktur {
+    height: 80vh;
+    text-align: right;
+    background-image: url(../media-content/image/struktur-uns.jpg);
+    background-size: cover;
+}
+
+#lingkup {
+    height: 80vh;
+    text-align: right;
+    background-image: url(../media-content/image/ruang-lingkup.jpg);
+    background-size: cover;
+}
+
+.gallery {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10vw;
+    padding-top: 5vw;
+  }
+  
+  .column {
+    flex: 1 0 20%;
+    padding: 0 1vw;
+  }
+  
+  .column img {
+    margin-top: 1vw;
+    transition: transform 0.2s;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 1vw;
+  }
+  
+  .column img:hover {
+    transform: scale(1.1); 
+  }
+  .column .description{
+    color: white;
+    padding: 0.2vw;
+    position: relative;
+    transform: translateY(1vh);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 6vh;
+  }
