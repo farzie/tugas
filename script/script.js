@@ -39,3 +39,14 @@ function closeMap() {
   var popupMap = document.getElementById("popupMap");
   popupMap.style.display = "none";
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('mouseup', function() {
+      let selectedText = window.getSelection().toString().trim();
+      if (selectedText) {
+          let utterance = new SpeechSynthesisUtterance(selectedText);
+          utterance.lang = 'id-ID'; // Set language to Indonesian
+          window.speechSynthesis.speak(utterance);
+      }
+  });
+});

@@ -40,21 +40,18 @@
                 <li><a>Tentang UNS</a>
                     <ul>
                         <li><a href="../tentang-uns/">Tentang UNS</a></li>
-                        <li><a href="#">Fasilitas Kampus</a></li>
+                        <li><a href="../fasilitas/">Fasilitas Kampus</a></li>
                     </ul>
                 </li>
                 <li><a>Akademik</a>
                     <ul>
-                        <li><a href="">Fakultas, Sekolah Vokasi, dan Pascasarjana</a></li>
-                        <li><a href="#">Program Studi</a></li>
-                        <li><a href="#">Lembaga dan UPT</a></li>
+                        <li><a href="../fakultas/">Fakultas, Sekolah Vokasi, dan Pascasarjana</a></li>
                     </ul>
                 </li>
                 <li><a>Mahasiswa</a>
                     <ul>
-                        <li><a href="#">Hidup di Solo</a></li>
+                        <li><a href="../hidup-di-solo/">Hidup di Solo</a></li>
                         <li><a href="https://sibea.integrasi.uns.ac.id/">Beasiswa</a></li>
-                        <li><a href="#">MBKM UNS</a></li>
                     </ul>
                 </li>
                 <li><a target="_blank" href="https://ppid.uns.ac.id/">PPID</a></li>
@@ -177,7 +174,7 @@
 
         <div class="footer-main">
             <div class="section" id="contact" data-aos="fade-right" data-aos-once='true'>
-                <img src="media-content/image/uns-merdeka-transparent.png" alt="">
+                <img src="../media-content/image/uns-merdeka-transparent.png" alt="">
                 <p>Jalan Ir. Sutami 36 Kentingan, Jebres, Surakarta, Jawa Tengah.</p>
                 <p>Telepon 0271-646994 | Faksimile : 0271-646655</p>
                 <p>WA (+62) 851 5672 3341</p>
@@ -234,5 +231,17 @@
             <h3>Copyright &copy; 2024 Universitas Sebelas Maret</h3>
         </div>
     </footer>
+    
+    <script>
+        document.addEventListener('mouseup', function() {
+            let selectedText = window.getSelection().toString().trim();
+            if (selectedText) {
+                let utterance = new SpeechSynthesisUtterance(selectedText);
+                utterance.lang = 'id-ID'; // Set language to Indonesian
+                window.speechSynthesis.speak(utterance);
+            }
+        });
+    </script>
+
 </body>
 </html>
