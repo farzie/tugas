@@ -159,7 +159,6 @@ button:hover {
     float: left;
     border-radius: 20px;
     transition: 0.2s;
-    border-bottom: dodgerblue solid;
 }
 
 #nav ul li:hover {
