@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: rgba(20, 20, 40, 0.7);
-    background-image: url(asset/background.jpg);
+    background-image: url(/asset/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
