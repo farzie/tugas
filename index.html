@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Cinema</title>
+    <link rel="shortcut icon" href="asset/image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.14.1/jquery-ui.min.js"integrity="sha256-AlTido85uXPlSyyaZNsjJXeCs07eSv3r43kyCVc8ChI="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>STAR CINEMA</h1>
+        <div class="middle">
+            <form class="search-box">
+                <input type="text" class="input">
+                <button type="button" class="btn" name="button"></button>
+            </form>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li class="button active alles" data-filter="all">All</li>
+                <li class="button" data-filter="action">Action</li>
+                <li class="button" data-filter="anime">Anime</li>
+                <li class="button" data-filter="comedy">Comedy</li>
+                <li class="button" data-filter="horror">Horror</li>
+                <li class="button" data-filter="romance">Romance</li>   
+            </ul>
+        </nav>
+        <section>
+            <div class="box filter action"><div class="image-container" style="background-image: url(asset/image/blade_runner_2049.jpg);"></div><p>Blade Runner 2049</p></div>
+            <div class="box filter action anime"><div class="image-container" style="background-image: url(asset/image/dragon_ball_z.jpg);"></div><p>Dragon Ball Z</p></div>
+            <div class="box filter comedy romance"><div class="image-container"style="background-image: url(asset/image/barbie.jpg);"></div><p>Barbie</p></div>
+            <div class="box filter horror"><div class="image-container" style="background-image: url(asset/image/american_psycho.jpg);"></div><p>American psycho</p></div>
+            <div class="box filter anime romance"><div class="image-container" style="background-image: url(asset/image/a_silent_voice.jpg); transform: scaleX(-1);"></div><p>A Silent Voice</p></div>
+            <div class="box filter action"><div class="image-container" style="background-image: url(asset/image/drive.jpg);"></div><p>Drive</p></div>
+            <div class="box filter action anime"><div class="image-container" style="background-image: url(asset/image/naruto_shippuden.jpg);"></div><p>Naruto Shippuden</p></div>
+            <div class="box filter comedy"><div class="image-container" style="background-image: url(asset/image/the_grand_tour.jpg);"></div><p>The Grand Tour</p></div>
+            <div class="box filter horror"><div class="image-container" style="background-image: url(asset/image/alien_isolation.jpg); transform: scaleX(-1);"></div><p>Alien: Isolation</p></div>
+            <div class="box filter action horror romance"><div class="image-container" style="background-image: url(asset/image/halloween_ends.jpg);"></div><p>Halloween Ends</p></div>
+            <div class="box filter action"><div class="image-container" style="background-image: url(asset/image/interstellar.jpg);"></div><p>Interstellar</p></div>
+            <div class="box filter anime"><div class="image-container" style="background-image: url(asset/image/nekopara.jpg);"></div><p>Nekopara</p></div>
+            <div class="box filter comedy"><div class="image-container" style="background-image: url(asset/image/the_dictator.jpg);"></div><p>The Dictator</p></div>
+            <div class="box filter action horror"><div class="image-container" style="background-image: url(asset/image/world_war_z.jpg);"></div><p>World War Z</p></div>
+            <div class="box filter romance"><div class="image-container" style="background-image: url(asset/image/titanic.jpg); transform: scaleX(-1);"></div><p>Titanic</p></div>
+            <div class="box filter anime romance"><div class="image-container" style="background-image: url(asset/image/5_cm_per_second.jpg);"></div><p>5Cm Per Second</p></div>
+        </section>
+    </main>
+</body>
+</html>
